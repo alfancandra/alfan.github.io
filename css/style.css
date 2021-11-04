@@ -1,0 +1,50 @@
+.container-md {
+    min-height: 1200px;
+}
+.bg-custom{
+    background: #DB292F;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.nav-link{
+    color: white !important;
+    border-radius: 50px;
+    margin-left: 15px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+
+.nav-link:hover{
+    border: 1px solid white;
+    background-color: #A61C21;
+    border-radius: 50px;
+}
+
+.search{
+    float:right;
+    width: 250px;
+    margin-left: 200px;
+}
+
+.carousel,.carousel-inner{
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+}
+
+.card{
+    border-radius:25px;
+}
+
+.card-prestasi{
+    transition: 0.4s;
+    border-radius: 25px;
+    
+}
+
+.card-prestasi:hover{
+    margin-top: -15px;
+    padding: 20px;
+    background: #C02127;
+    color:#fff;
+    border-radius: 25px;
+}
